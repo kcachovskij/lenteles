@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+table,
+th {
+  background: #af3152;
+  border: 2px solid white;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  margin: 20px auto;
+  padding: 20px 100px;
+}
+
+td {
+  border: 2px solid white;
+}
+table {
+  border-collapse: collapse;
+}
+tr:nth-of-type(2n) {
+  background: #e36074e0;
+}
+td {
+  margin: 20px auto;
+  padding: 20px 100px;
+}
+tr {
+  margin: 20px auto;
+  padding: 20px 100px;
+  background: rgb(221, 140, 140);
+}
